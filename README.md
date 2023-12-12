@@ -61,8 +61,11 @@ python run_test.py --dataset "Dataset" --use_my_model --shot_num_per_class 1 or 
 
     For example:
     python run_test.py --dataset "miniImageNet" --use_my_model --shot_num_per_class 1  --load_dir "Results/exp"
+    
     python run_test.py --dataset "miniImageNet" --use_my_model --shot_num_per_class 5  --load_dir "Results/exp2"
+    
     python run_test.py --dataset "CUB" --use_my_model --shot_num_per_class 1  --load_dir "Results/exp3"
+    
     python run_test.py --dataset "CUB" --use_my_model --shot_num_per_class 5 --load_dir "Results/exp4"
 
 ### Use pre-trained models
